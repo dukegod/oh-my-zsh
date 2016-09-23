@@ -5,7 +5,8 @@ export ZSH=/Users/hui/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+
+ZSH_THEME="bureau"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -16,6 +17,9 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
+
+#automatically upgrade itself without prompting you,
+DISABLE_UPDATE_PROMPT=true
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -101,6 +105,9 @@ export PATH=$PATH:$MONGO_PATH/bin
 # node
 export PATH=/usr/local/bin/node:$PATH
 
+# lua
+export PATH=/usr/local/bin/lua:$PATH
+
 #nvm
 export NVM_DIR="$HOME/.nvm"
   . "$(brew --prefix nvm)/nvm.sh"
@@ -113,3 +120,5 @@ alias gdist='gulp rls --env dist'
 alias gcdn='gulp rls --env cdn'
 alias gr='gulp run'
 
+# modify websotrm
+alias ws = 'wstorm'
