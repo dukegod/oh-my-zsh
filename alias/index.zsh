@@ -12,11 +12,6 @@ alias ng="npm list -g --depth=0 2>/dev/null"
 alias nl="npm list --depth=0 2>/dev/null"
 
 # ---
-# nginx
-# ---
-alias ngxps="ps -ef | grep nginx"
-
-# ---
 # mysql
 # ---
 alias mysql="mysql -u root -p"
@@ -24,4 +19,14 @@ alias mysql="mysql -u root -p"
 # ---
 # archey
 # ---
-alias ay="archey"
+alias ary="archey"
+
+# ---
+# 本地nginx快捷键
+# ---
+alias cdngb="cd /usr/local/Cellar/nginx/1.12.0_1/bin"
+alias cdngc="cd /usr/local/etc/nginx"
+alias ngps="ps -ef | grep nginx"
+alias cdngl="cd /usr/local/var/log/nginx/"
+alias cdngp="cd /usr/local/var/run/"
+alias cdngw="cd /usr/local/var/www/"
