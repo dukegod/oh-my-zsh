@@ -6,6 +6,11 @@
 alias lla="ls -al"
 
 # ---
+# sublime
+# ---
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# ---
 # npm list top level modules
 # ---
 alias ng="npm list -g --depth=0 2>/dev/null"
