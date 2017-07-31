@@ -15,6 +15,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 # ---
 alias ng="npm list -g --depth=0 2>/dev/null"
 alias nl="npm list --depth=0 2>/dev/null"
+alias nout="npm -g outdated"
 
 # ---
 # mysql
