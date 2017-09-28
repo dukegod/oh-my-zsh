@@ -27,6 +27,18 @@ alias mysql="mysql -u root -p"
 alias ary="archey"
 
 # ---
+# brew 
+# brew cask
+# ---
+alias bwup="brew update"
+alias bwins="brew install"
+alias bwli="brew list"
+alias bwss="brew search"
+alias bcss="brew cask search"
+alias bcins="brew cask install"
+alias bcli="brew cask list"
+
+# ---
 # 本地nginx快捷键
 # ---
 alias cdngb="cd /usr/local/Cellar/nginx/1.12.0_1/bin"
