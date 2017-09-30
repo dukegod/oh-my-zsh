@@ -7,7 +7,7 @@ alias lla="ls -al"
 # ---
 # sublime
 # ---
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+#alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # ---
 # npm list top level modules
