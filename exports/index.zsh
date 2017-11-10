@@ -33,7 +33,8 @@ export NVM_DIR="$HOME/.nvm"
 # /usr/libexec/java_home -V
 # 这样你就可以用1.7版本了
 # ---
-# export JAVA_HOME='/usr/libexec/java_home -V 1.7';
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
 
 # ---
 # OpenResty nginx
