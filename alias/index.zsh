@@ -2,7 +2,7 @@
 # ---
 # 修改默认快捷键
 # ---
-alias lla="ls -al"
+# alias lla="ls -al"
 
 # ---
 # sublime
