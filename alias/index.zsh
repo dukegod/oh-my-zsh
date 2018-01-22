@@ -9,13 +9,6 @@
 # ---
 #alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
-#---
-#alias chrome
-#---
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-alias chromeca="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
-
-# ---
 # npm list top level modules
 # ---
 alias ng="npm list -g --depth=0 2>/dev/null"
