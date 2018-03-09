@@ -1,0 +1,31 @@
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/hui/.oh-my-zsh
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme ea# time that oh-my-zsh is loaded
+
+# ZSH_THEME="bureau"
+# ZSH_THEME="ys"
+ZSH_THEME="pygmalion"
+
+#automatically upgrade itself without prompting you,
+DISABLE_UPDATE_PROMPT=false
+
+# Uncomment the following line to change how often to auto-update (in days).
+export UPDATE_ZSH_DAYS=13
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git react-native brew zsh-autosuggestions)
+
+# 引入oh-my-zsh配置
+source $ZSH/oh-my-zsh.sh
+
+# 引入alias
+source ~/.oh-my-zsh/alias/index.zsh
+
+# 引入exports
+source ~/.oh-my-zsh/exports/index.zsh
