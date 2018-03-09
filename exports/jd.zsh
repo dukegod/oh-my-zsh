@@ -25,9 +25,8 @@ export PATH="/usr/local/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export PATH=/usr/local/opt/python/libexec/bin:$PATH
 
 # nvm
-# export NVM_DIR="$HOME/.nvm"
-# . "/usr/local/opt/nvm/nvm.sh"
-
+ export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
 # ---
 # 查看可用的java版本
 # /usr/libexec/java_home -V
