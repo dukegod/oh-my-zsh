@@ -34,6 +34,9 @@ export PATH="/usr/local/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # ---
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
 # export PATH=$JAVA_HOME/bin:$PATH
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+export PATH="/usr/local/opt/curl/bin:$PATH"
 
 # ---
 # OpenResty nginx
