@@ -3,7 +3,8 @@
 # export ZSH=/Users/hui/.oh-my-zsh
 # 为了让 brew 安装的软件覆盖系统自带的，
 # 需要在 PATH 增加 /usr/local/bin 在 /usr/bin 前面
-export PATH="/usr/local/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 
 # musql 默认输入
 export PATH=/usr/local/mysql/bin:$PATH
