@@ -44,3 +44,5 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 # export PATH="/usr/local/openresty/nginx/sbin:$PATH"
 # alias ngxr="/usr/local/openresty/nginx/sbin/nginx -s reload"
 # alias ngxps="ps -ef | grep nginx"
+
+alias jnpm="npm --registry=http://registry.m.jd.com --cache=$HOME/.npm/.cache/jnpm"
