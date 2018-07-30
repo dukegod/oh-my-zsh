@@ -22,8 +22,11 @@ export PATH=/usr/local/bin/lua:$PATH
 #sqlite
 export PATH=/usr/local/opt/sqlite/bin:$PATH
 
-#python
-export PATH=/usr/local/opt/python/libexec/bin:$PATH
+#python3
+# export PATH=/usr/local/opt/python/libexec/bin:$PATH
+
+#python2
+export PATH=/usr/local/opt/python2/libexec/bin:$PATH
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
