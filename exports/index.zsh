@@ -44,5 +44,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 # OpenResty nginx
 # ---
 # export PATH="/usr/local/openresty/nginx/sbin:$PATH"
-# alias ngxr="/usr/local/openresty/nginx/sbin/nginx -s reload"
-# alias ngxps="ps -ef | grep nginx"
+
+#
+# iqiyi
+#
+# 堡垒机
+export QB=root,10.13.45.31,22;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB
