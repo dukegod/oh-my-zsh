@@ -57,5 +57,5 @@ alias cdngw="cd /usr/local/var/www/"
 # iqiyi
 # ---
 
-alias inpm='cnpm --registry=http://10.110.82.227:46789'
+alias inpm='npm --registry=http://10.110.82.227:46789'
 
