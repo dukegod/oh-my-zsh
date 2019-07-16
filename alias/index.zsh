@@ -2,7 +2,7 @@
 # ---
 # 修改默认快捷键
 # ---
-# alias lla="ls -al"
+alias lla="ls -al"
 
 # ---
 # sublime
@@ -46,3 +46,9 @@ alias ngps="ps -ef | grep nginx"
 alias cdngl="cd /usr/local/var/log/nginx/"
 alias cdngp="cd /usr/local/var/run/"
 alias cdngw="cd /usr/local/var/www/"
+
+# ---
+# iqiyi
+# ---
+
+alias inpm='cnpm --registry=http://10.110.82.227:46789'
