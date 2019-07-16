@@ -51,4 +51,11 @@ alias cdngw="cd /usr/local/var/www/"
 # iqiyi
 # ---
 
+# alias jnpm="npm --registry=http://registry.m.jd.com --cache=$HOME/.npm/.cache/jnpm"
+
+# ---
+# iqiyi
+# ---
+
 alias inpm='cnpm --registry=http://10.110.82.227:46789'
+
