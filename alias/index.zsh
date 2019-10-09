@@ -18,6 +18,11 @@ alias nout="npm -g outdated"
 # ---
 # mysql
 # ---
+alias gcfl="git config --local --list"
+
+# ---
+# mysql
+# ---
 alias mysql="mysql -u root -p"
 
 # ---
@@ -46,16 +51,4 @@ alias ngps="ps -ef | grep nginx"
 alias cdngl="cd /usr/local/var/log/nginx/"
 alias cdngp="cd /usr/local/var/run/"
 alias cdngw="cd /usr/local/var/www/"
-
-# ---
-# iqiyi
-# ---
-
-# alias jnpm="npm --registry=http://registry.m.jd.com --cache=$HOME/.npm/.cache/jnpm"
-
-# ---
-# iqiyi
-# ---
-
-alias inpm='npm --registry=http://10.110.82.227:46789'
 
