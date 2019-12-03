@@ -51,4 +51,7 @@ alias ngps="ps -ef | grep nginx"
 alias cdngl="cd /usr/local/var/log/nginx/"
 alias cdngp="cd /usr/local/var/run/"
 alias cdngw="cd /usr/local/var/www/"
-
+alias ngs="sudo nginx"
+alias ngsp="sudo nginx -s stop"
+alias ngsr="sudo nginx -s reload"
+alias ngst="sudo nginx -t"
