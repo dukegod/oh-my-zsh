@@ -11,9 +11,9 @@ alias lla="ls -al"
 
 # npm list top level modules
 # ---
-alias ng="npm list -g --depth=0 2>/dev/null"
-alias nl="npm list --depth=0 2>/dev/null"
-alias nout="npm -g outdated"
+alias npmgl="npm list -g --depth=0 2>/dev/null"
+alias npmll="npm list --depth=0 2>/dev/null"
+alias npmout="npm -g outdated"
 
 # ---
 # mysql
@@ -55,3 +55,8 @@ alias ngs="sudo nginx"
 alias ngsp="sudo nginx -s stop"
 alias ngsr="sudo nginx -s reload"
 alias ngst="sudo nginx -t"
+
+# ---
+# iqiyi
+# ---
+alias jumpbox="export QB=root,10.13.45.31,22;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB"
