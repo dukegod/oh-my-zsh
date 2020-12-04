@@ -6,14 +6,6 @@ configured on `kubectl` to your Bash/Zsh prompt strings (i.e. the `$PS1`).
 
 Inspired by several tools used to simplify usage of `kubectl`.
 
-![prompt](img/screenshot2.png)
-
-![prompt_sol_light](img/screenshot-sol-light.png)
-
-![prompt_img](img/screenshot-img.png)
-
-![prompt demo](img/kube-ps1.gif)
-
 ## Installing
 
 ### MacOS
@@ -63,6 +55,10 @@ Official installation instructions and binaries are available:
 If using this with OpenShift, the `oc` tool needs installed.  It can be obtained
 from brew ports:
 
+#### Zsh
+```sh
+source /path/to/kube-ps1.sh
+PROMPT='$(kube_ps1)'$PROMPT
 ```
 brew install openshift-cli
 ```
@@ -81,6 +77,9 @@ If neither binary is available, the prompt will print the following:
 ```
 (<symbol>|BINARY-N/A:N/A)
 ```
+or the source can be downloaded:
+
+[OC Client Tools](https://www.openshift.org/download.html)
 
 ## Helper utilities
 
@@ -102,6 +101,25 @@ The default prompt layout is:
 ```
 (<symbol>|<context>:<namespace>)
 ```
+(<symbol>|BINARY-N/A:N/A)
+```
+
+## Helper utilities
+
+There are several great tools that make using kubectl very enjoyable:
+
+- [`kubectx` and `kubens`](https://github.com/ahmetb/kubectx) are great for
+fast switching between clusters and namespaces.
+
+## Tmux port
+
+I have begun porting kube-ps1 to tmux as a status line plugin.  If you prefer
+tmux, and like the functionality provided by kube-ps1, checkout the
+[kube-tmux](https://github.com/jonmosco/kube-tmux) project
+
+## Prompt Structure
+
+The default prompt layout is:
 
 If the current-context is not set, kube-ps1 will return the following:
 
