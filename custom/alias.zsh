@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # ---
 # 修改默认快捷键
 # ---
@@ -16,7 +17,7 @@ alias npmll="npm list --depth=0 2>/dev/null"
 alias npmout="npm -g outdated"
 
 # ---
-# mysql
+# git
 # ---
 alias gcfl="git config --local --list"
 
@@ -24,23 +25,6 @@ alias gcfl="git config --local --list"
 # mysql
 # ---
 alias mysql="mysql -u root -p"
-
-# ---
-# archey
-# ---
-alias ary="archey"
-
-# ---
-# brew 
-# brew cask
-# ---
-alias bwup="brew update"
-alias bwins="brew install"
-alias bwli="brew list"
-alias bwss="brew search"
-alias bcss="brew cask search"
-alias bcins="brew cask install"
-alias bcli="brew cask list"
 
 # ---
 # 本地nginx快捷键
@@ -60,3 +44,11 @@ alias ngst="sudo nginx -t"
 # iqiyi
 # ---
 alias jumpbox="export QB=root,10.13.45.31,22;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB"
+
+# ---
+# cds
+# ---
+alias cdqy="cd ~/iqiyi-git"
+alias cdgh="cd ~/github"
+alias cdghr="cd ~/github/private-projects/"
+alias cdghu="cd ~/github/public-projects/"
