@@ -60,22 +60,12 @@ if [ -z "$ZSH_COMPDUMP" ]; then
 fi
 
 # Construct zcompdump OMZ metadata
-<<<<<<< HEAD
-zcompdump_metadata="\
-#omz revision: $(cd -q "$ZSH"; git rev-parse HEAD 2>/dev/null)
-#omz fpath: $fpath\
-"
-
-# Delete the zcompdump file if OMZ zcompdump metadata changed
-if ! cmp -s <(command grep '^#omz' "$ZSH_COMPDUMP" 2>/dev/null) <(echo "$zcompdump_metadata"); then
-=======
 zcompdump_revision="#omz revision: $(builtin cd -q "$ZSH"; git rev-parse HEAD 2>/dev/null)"
 zcompdump_fpath="#omz fpath: $fpath"
 
 # Delete the zcompdump file if OMZ zcompdump metadata changed
 if ! command grep -q -Fx "$zcompdump_revision" "$ZSH_COMPDUMP" 2>/dev/null \
    || ! command grep -q -Fx "$zcompdump_fpath" "$ZSH_COMPDUMP" 2>/dev/null; then
->>>>>>> oh-my-zsh/master
   command rm -f "$ZSH_COMPDUMP"
   zcompdump_refresh=1
 fi
@@ -93,12 +83,6 @@ fi
 
 # Append zcompdump metadata if missing
 if (( $zcompdump_refresh )); then
-<<<<<<< HEAD
-  echo "\n$zcompdump_metadata" | tee -a "$ZSH_COMPDUMP" &>/dev/null
-fi
-
-unset zcompdump_metadata zcompdump_refresh
-=======
   # Use `tee` in case the $ZSH_COMPDUMP filename is invalid, to silence the error
   # See https://github.com/ohmyzsh/ohmyzsh/commit/dd1a7269#commitcomment-39003489
   tee -a "$ZSH_COMPDUMP" &>/dev/null <<EOF
@@ -109,7 +93,6 @@ EOF
 fi
 
 unset zcompdump_revision zcompdump_fpath zcompdump_refresh
->>>>>>> oh-my-zsh/master
 
 
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
