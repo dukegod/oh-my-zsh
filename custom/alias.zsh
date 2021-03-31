@@ -43,7 +43,7 @@ alias ngst="sudo nginx -t"
 # ---
 # iqiyi
 # ---
-alias jumpbox="export QB=root,10.13.45.31,22;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB"
+alias jumpbox="export QB=root,10.110.21.159;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB"
 
 # ---
 # cds
