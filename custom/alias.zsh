@@ -48,18 +48,21 @@ alias jumpbox="export QB=root,10.110.21.159;ssh liuhui01@jumpbox.qiyi.domain -o 
 # ---
 # cds
 # ---
-alias cdqy="cd ~/iqiyi-git"
-alias cdgh="cd ~/github"
-alias cdghr="cd ~/github/private-projects/"
-alias cdghu="cd ~/github/public-projects/"
+alias lgfapp="cd ~/lego-git/lego-fourtry-app"
+alias lgfser="cd ~/lego-git/lego-fourtry-service"
+alias lggit="cd ~/lego-git"
+alias ghpri="cd ~/github/private-projects/"
+alias ghpub="cd ~/github/public-projects/"
 
 
 # ---
 # Mac 默认命令
 # ---
+
 # 防火墙相关
 alias sldis="sudo spctl --master-disable"
 alias slen="sudo spctl --master-enable"   
 alias slstatus="spctl —status"
+
 # 重启finder
 alias killfind="killall Finder"
