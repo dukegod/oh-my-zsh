@@ -41,11 +41,6 @@ alias ngsr="sudo nginx -s reload"
 alias ngst="sudo nginx -t"
 
 # ---
-# iqiyi
-# ---
-alias jumpbox="export QB=root,10.110.21.159;ssh liuhui01@jumpbox.qiyi.domain -o SendEnv=QB"
-
-# ---
 # cds
 # ---
 alias lgfapp="cd ~/lego-git/lego-fourtry-app"
@@ -66,3 +61,9 @@ alias slstatus="spctl —status"
 
 # 重启finder
 alias killfind="killall Finder"
+
+# ---
+# iqiyi
+# ---
+alias jumpbox230="export QB=root,10.62.119.230,22;ssh -i ~/.ssh/lego-fe liuhui01@jumpbox.qiyi.domain -p 22 -o SendEnv=QB"
+
