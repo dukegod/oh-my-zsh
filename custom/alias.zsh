@@ -65,6 +65,9 @@ alias killfind="killall Finder"
 # ---
 # iqiyi
 # ---
+alias jumpboxAll="ssh box"
 alias jumpbox230="export QB=root,10.62.119.230,22;ssh -i ~/.ssh/lego-fe liuhui01@jumpbox.qiyi.domain -p 22 -o SendEnv=QB"
 alias jumpbox233="export QB=root,10.62.119.233,22;ssh -i ~/.ssh/lego-fe liuhui01@jumpbox.qiyi.domain -p 22 -o SendEnv=QB"
+alias jumpbox21="export QB=root,10.13.43.21,22;ssh -i ~/.ssh/lego-fe liuhui01@jumpbox.qiyi.domain -p 22 -o SendEnv=QB"
+alias jumpbox22="export QB=root,10.13.43.22,22;ssh -i ~/.ssh/lego-fe liuhui01@jumpbox.qiyi.domain -p 22 -o SendEnv=QB"
 
